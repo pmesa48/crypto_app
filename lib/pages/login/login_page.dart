@@ -2,6 +2,8 @@ import 'package:crypto_currencies/data/database_helper.dart';
 import 'package:crypto_currencies/models/user.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto_currencies/pages/login/login_presenter.dart';
+import 'package:crypto_currencies/pages/login/login_view.dart';
+
 
 class LoginPage extends StatefulWidget {
   @override

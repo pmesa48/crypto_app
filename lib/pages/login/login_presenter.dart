@@ -1,10 +1,5 @@
-import 'package:crypto_currencies/models/user.dart';
 import 'package:crypto_currencies/data/rest_data.dart';
-
-abstract class LoginPageView {
-  void onLoginSuccess(User user); 
-  void onLoginError(String error);
-}
+import 'package:crypto_currencies/pages/login/login_view.dart';
 
 class LoginPagePresenter {
 
